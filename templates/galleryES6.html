@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>
+		</title>
+		<meta charset='UTF-8'>
+		<link rel='stylesheet' href='../css/galleryES6.css'>
+	</head>
+	<body>
+		<div class='b-gallery' id='gallery1'>
+			<div class='b-picture'><img src='../images/gallery/small_79.jpg' class='b-picture__image' alt='Image 79'></div>
+			<div class='b-picture'><img src='../images/gallery/small_80.jpg' class='b-picture__image' alt='Image 80'></div>
+			<div class='b-picture'><img src='../images/gallery/small_82.jpg' class='b-picture__image' alt='Image 82'></div>
+			<div class='b-picture'><img src='../images/gallery/small_83.jpg' class='b-picture__image' alt='Image 83'></div>
+			<div class='b-picture'><img src='../images/gallery/small_84.jpg' class='b-picture__image' alt='Image 84'></div>
+			<div class='b-picture'><img src='../images/gallery/small_85.jpg' class='b-picture__image' alt='Image 85'></div>
+			<div class='b-picture'><img src='../images/gallery/small_86.jpg' class='b-picture__image' alt='Image 86'></div>
+			<div class='b-picture'><img src='../images/gallery/small_87.jpg' class='b-picture__image' alt='Image 87'></div>
+			<div class='b-picture'><img src='../images/gallery/small_89.jpg' class='b-picture__image' alt='Image 89'></div>
+			<div class='b-preview'>
+				<div class='b-preview__content'>
+					<button class='b-preview__arrow b-preview__arrow_prev'>&lt;</button>
+					<img src='' class='b-preview__image'>
+					<button class='b-preview__arrow b-preview__arrow_next'>&gt;</button>
+					
+					<div class='b-preview__text'></div>
+					<div class="b-preview__info">
+						<span class="b-preview__currentPlace"></span> /
+						<span class="b-preview__maxPlace"></span>
+					</div>
+
+					<button class="b-preview__slideshowBtn">start</button>
+				</div>
+			</div>
+		</div>	
+
+		<script src="../js/jquery-3.3.1.min.js"></script>
+		<!-- <script src="../scripts/component.js"></script> -->
+		<script src="../js/galleryES6.js"></script>
+		<script>
+			let gallery1 = new Gallery('#gallery1');
+		</script>
+	</body>
+</html>
